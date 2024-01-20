@@ -40,3 +40,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Include content of FrontEndUI folder
+# Remove or comment out the following lines
+# /FrontEndUI
