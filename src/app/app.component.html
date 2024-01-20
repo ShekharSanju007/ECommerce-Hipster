@@ -18,7 +18,7 @@
   <ng-template #logoutButton>
     <button mat-button *ngIf="dataService.isLoggedIn()" (click)="LogOut()">
       <mat-icon>account_circle</mat-icon>
-      {{ (dataService.logOut$ | async) ? 'Login' : 'Logout' }}
+      {{ (dataService.logOut$ | async) ? 'Login' : 'LogOut' }}
     </button>
   </ng-template>
   </div>
